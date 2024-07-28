@@ -66,11 +66,11 @@
         }
 
         &:hover{
+            background: $clr-white;
             .btn-icon{
                 transform: scale(0.9);
                 color: $clr-orange;
             }
-            background: $clr-white;
         }
     }
 }
