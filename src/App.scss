@@ -115,3 +115,56 @@ input, textarea, select{
   &-dark{color: $clr-dark;}
   &-whitesmoke{color: $clr-whitesmoke;}
 }
+.bg{
+  &-black{background-color: $clr-black;}
+  &-white{background-color: $clr-white;}
+  &-orange{background-color: $clr-orange;}
+  &-green{background-color: $clr-green;}
+  &-gray{background-color: $clr-gray;}
+  &-dark-gray{background-color: $clr-dark-gray;}
+  &-dark{background-color: $clr-dark;}
+  &-whitesmoke{background-color: $clr-whitesmoke;}
+}
+
+/* font weights */
+.fw{
+  &-1{font-weight: 100;}
+  &-2{font-weight: 200;}
+  &-3{font-weight: 300;}
+  &-4{font-weight: 400;}
+  &-5{font-weight: 500;}
+  &-6{font-weight: 600;}
+  &-7{font-weight: 700;}
+  &-8{font-weight: 800;}
+  &-9{font-weight: 900;}
+}
+
+/* common font sizes */
+.fs{
+  &-11{font-size: 11px;}
+  &-12{font-size: 12px;}
+  &-13{font-size: 13px;}
+  &-14{font-size: 14px;}
+  &-15{font-size: 15px;}
+  &-16{font-size: 16px;}
+  &-17{font-size: 17px;}
+  &-18{font-size: 18px;}
+  &-19{font-size: 19px;}
+  &-20{font-size: 20px;}
+  &-21{font-size: 21px;}
+  &-22{font-size: 22px;}
+  &-23{font-size: 23px;}
+  &-24{font-size: 24px;}
+  &-25{font-size: 25px;}
+  &-26{font-size: 26px;}
+}
+
+/* letter spacing */
+.ls-1{letter-spacing: 1px;}
+.ls-2{letter-spacing: 2px;}
+
+/* margin and padding */
+.mx-auto{
+    margin-right: auto;
+    margin-left: auto;
+}
